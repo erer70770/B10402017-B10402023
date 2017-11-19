@@ -8,5 +8,7 @@ namespace WindowsFormsApplication1
 {
     class ClassA
     {
+            Random crandom = new Random();
+            label1.Text = crandom.Next(0, 99).ToString(); 
     }
 }
